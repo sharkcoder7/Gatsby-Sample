@@ -23,6 +23,7 @@ const SearchButtons = ({ projects, setProjects, setBackToAll }) => {
       setProjects(tempProjects)
     }
   }
+  
   return (
     <Wrapper>
       {types.map((type, typeIndex) => {

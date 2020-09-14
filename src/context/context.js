@@ -3,8 +3,6 @@ import sublinks from "../constants/links"
 
 const GatsbyContext = React.createContext()
 
-//Provider, Consumer
-
 const GatsbyProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [links, setLinks] = useState(sublinks)
